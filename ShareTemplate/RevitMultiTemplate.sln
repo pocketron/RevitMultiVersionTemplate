@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RevitTemplateShare", "RevitTemplateShare.shproj", "{5CAD8032-ED67-4693-BE66-3EF9A07B0E79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevitTemplate2025", "..\RevitTemplate\RevitTemplate2025\RevitTemplate2025.csproj", "{08ED6DC1-D120-4BAD-8912-CAFA50CCD5D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08ED6DC1-D120-4BAD-8912-CAFA50CCD5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08ED6DC1-D120-4BAD-8912-CAFA50CCD5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08ED6DC1-D120-4BAD-8912-CAFA50CCD5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08ED6DC1-D120-4BAD-8912-CAFA50CCD5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {905CA531-87B2-478B-BCB4-5905B2452DA6}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RevitMultiTemplate.projitems*{08ed6dc1-d120-4bad-8912-cafa50ccd5d0}*SharedItemsImports = 5
+		RevitMultiTemplate.projitems*{5cad8032-ed67-4693-be66-3ef9a07b0e79}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
